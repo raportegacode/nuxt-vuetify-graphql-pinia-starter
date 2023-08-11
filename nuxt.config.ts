@@ -23,37 +23,16 @@ export default defineNuxtConfig({
 
 		'pages:extend'(routes) {
 			routes.push(
-				// Example route definition
+
 				{
 					name: 'Rocket',
 					path: '/rocketdetail',
-					// component: () => import('~/pages/rocketdetail.vue').then(r => r.default ||r),
 					file: '/pages/rocketdetail.vue',
 				}
 			)
 		}
 	},
 
-	// Define your routes here
-	// routeRules: {
-
-	// 	'/rocketdetails/': {
-	// 		swr: true,
-	// 		redirect: '/client/pages/rocketdetail'
-	// 	}
-
-
-	// extendRoutes(routes) {
-	// 	routes.push(
-	// 		// Example route definition
-	// 		{
-	// 			name: 'Rocket',
-	// 			path: '/rocketdetail/_object',
-	// 			component: 'pages/rocketdetail/_id.vue',
-	// 		}
-	// 	)
-	// 	// Add more routes as needed
-	// },
 
 })
 
